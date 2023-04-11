@@ -29,12 +29,14 @@ class MovieTableViewCell: UITableViewCell {
     }
     
     func configure(with model: Movie) {
-        self.movieTitleLabel.text = model.Title
-        self.movieYearLabel.text = model.Year
+        self.movieTitleLabel.text = model.title
+        self.movieYearLabel.text = model.year
         // URL movie image
-        let url = model.Poster
-        if let data = try? Data(contentsOf: URL(string: url)!) {
-            self.moviePosterImageView.image = UIImage(data: data)
+        let url = model.poster
+        DispatchQueue.main.async { [ weak self ] in
+            if let data = try? Data(contentsOf: URL(string: url)!) {
+                self?.moviePosterImageView.image = UIImage(data: data)
+            }
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD33D11F29E5F41600BC88E0 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D11E29E5F41600BC88E0 /* MovieModel.swift */; };
 		DDFFFB7129DB733A0044127A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFFB7029DB733A0044127A /* AppDelegate.swift */; };
 		DDFFFB7329DB733A0044127A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFFB7229DB733A0044127A /* SceneDelegate.swift */; };
 		DDFFFB7529DB733A0044127A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFFB7429DB733A0044127A /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD33D11E29E5F41600BC88E0 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		DDFFFB6D29DB733A0044127A /* Movie Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFFFB7029DB733A0044127A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDFFFB7229DB733A0044127A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD33D11D29E5F3E000BC88E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD33D11E29E5F41600BC88E0 /* MovieModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DDFFFB6429DB733A0044127A = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		DDFFFB6F29DB733A0044127A /* Movie Searcher */ = {
 			isa = PBXGroup;
 			children = (
+				DD33D11D29E5F3E000BC88E0 /* Models */,
 				DDFFFB7029DB733A0044127A /* AppDelegate.swift */,
 				DDFFFB7229DB733A0044127A /* SceneDelegate.swift */,
 				DDFFFB7429DB733A0044127A /* ViewController.swift */,
@@ -147,6 +158,7 @@
 			files = (
 				DDFFFB7529DB733A0044127A /* ViewController.swift in Sources */,
 				DDFFFB7129DB733A0044127A /* AppDelegate.swift in Sources */,
+				DD33D11F29E5F41600BC88E0 /* MovieModel.swift in Sources */,
 				DDFFFB8629DB8E3B0044127A /* MovieTableViewCell.swift in Sources */,
 				DDFFFB7329DB733A0044127A /* SceneDelegate.swift in Sources */,
 			);
