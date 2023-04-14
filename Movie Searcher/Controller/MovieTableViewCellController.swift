@@ -7,9 +7,9 @@
 
 import UIKit
 
-class MovieTableViewCell: UITableViewCell {
+class MovieTableViewCellController: UITableViewCell {
 
-    // Outlets
+    // MARK: - Outlets
     @IBOutlet var movieTitleLabel: UILabel!
     @IBOutlet var movieYearLabel: UILabel!
     @IBOutlet var moviePosterImageView: UIImageView!
